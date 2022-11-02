@@ -12,7 +12,7 @@ def fractionalKnapsack(W, arr):
             finalvalue += item.value
         else:
             finalvalue += item.value * W / item.weight
-        break
+            break
     return finalvalue
 
 if __name__ == "__main__":
